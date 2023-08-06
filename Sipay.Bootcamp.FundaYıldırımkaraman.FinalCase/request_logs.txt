@@ -1,0 +1,4 @@
+4.08.2023 15:45:13 - Request Method: POST, Request Path: /api/Admin/users, Request Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+4.08.2023 17:44:43 - Request Method: GET, Request Path: /api/User/1, Request Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+4.08.2023 18:12:30 - Request Method: POST, Request Path: /api/Auth/login, Request Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+6.08.2023 19:00:01 - Request Method: POST, Request Path: /api/Auth/login, Request Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
