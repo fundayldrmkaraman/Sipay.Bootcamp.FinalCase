@@ -179,10 +179,6 @@ POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_to
 
 2.	Veritabanı modeli, DbContext sınıfında yapılandırılır ve entity ilişkileri burada tanımlanır.
 
-
-## Geliştirici
-Bu projenin geliştiricisi: Funda Yıldırımkaraman
-
 ## Sonuç ve Çıkarımlar
 
 Bu proje, bir site yönetimi uygulaması geliştirmek için adım adım ilerlediğimiz kapsamlı bir örnektir. Projede, ASP.NET Web API kullanarak RESTful API oluşturdum ve veritabanı işlemleri için Entity Framework Core'ü kullandım. Ayrıca, JWT tabanlı kimlik doğrulama ve yetkilendirme ekledim, böylece farklı rollerdeki kullanıcılar için güvenli bir oturum açma ve erişim denetimi sağlamaya çalıştım.
@@ -190,3 +186,6 @@ Bu proje, bir site yönetimi uygulaması geliştirmek için adım adım ilerledi
 Proje, farklı rollerdeki kullanıcılar arasında etkileşimi ve yönetimi destekleyen iki tip kullanıcı (Admin ve Normal Kullanıcı) ile işlevselliğe sahip. Yönetici kullanıcısı, daire bilgilerini yönetebilir, kullanıcıları yönetebilir, aidat ve fatura bilgilerini girip yönetebilir ve iletişim kurabilir. Normal kullanıcılar, kendilerine atanmış aidat ve fatura bilgilerini görüntüleyebilir ve ödeme işlemlerini gerçekleştirebilir.
 
 Projede eksik ve çalışmayan yerler de mevcut. Mapper ve Validation kullanım kısımlarında eksiklik var. Aynı zamanda database bağlantısı kısımlarında kişisel bilgisayarımdan kaynaklı hatalar da meydana geldi. Bu da admin ve user kullanıcılarında işlem hatalarına sebebiyet verebilir. Aynı şekilde uygun kodları kullanmama rağmen token oluşturmada hatalarım mevcut. Ama genel olarak kod yazım tarzım ve yapısal oluşumum mevcut ödevin kaynak dosyalarda mevcut.
+
+## Geliştirici
+Bu projenin geliştiricisi: Funda Yıldırımkaraman
