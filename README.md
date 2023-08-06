@@ -116,12 +116,12 @@ POST https://localhost:5001/api/user/bills/1/pay Authorization: Bearer {your_jwt
 6.	Mesaj göndermek için: POST https://localhost:5001/api/user/messages
 bashCopy code
 POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_token} Content-Type: application/json { "recipient": "admin@example.com", "message": "Merhaba! Bu bir test mesajıdır." } 
-### Yetkilendirme ve Güvenlik
+#### Güvenlik
  •	API, JWT ile yetkilendirme sağlar. Admin ve User rolleri, JWT içinde taşınan payload ile belirlenir.
  •	Normal kullanıcılar sadece kendi faturalarını ve mesajlarını görüntüleyebilir ve ödeyebilir.
  •	Admin kullanıcıları ise tüm kullanıcıları yönetebilir ve fatura bilgilerini ekleyebilir/düzenleyebilir.
  •	Yetkilendirme için Authorize attribute'ları kullanılır ve her endpoint'e uygun roller atanır.
-### Veritabanı Modeli
+#### Veritabanı
 •	Veritabanı, Apartment, User, Bill ve Message tablolarını içerir.
 •	Veritabanı modeli, DbContext sınıfında yapılandırılır ve entity ilişkileri burada tanımlanır.
 
