@@ -65,20 +65,27 @@ dotnet run
 ## API Endpoints
 Bu API, kullanıcılara belirli işlemleri gerçekleştirmek için bir dizi HTTP endpoint sağlar.
 
-### Authentication
+#### Authentication
 •	POST /api/auth/login: Kullanıcı girişi için kullanılır. Kullanıcı adı ve şifre ile istek göndererek JWT token alabilirsiniz.
 
-### Admin İşlemleri
+#### Admin İşlemleri
 •	GET /api/admin/users: Tüm kullanıcıları listeler.
+
 •	GET /api/admin/users/{id}: Belirli bir kullanıcıyı ID'ye göre getirir.
+
 •	POST /api/admin/users: Yeni kullanıcı ekler.
+
 •	PUT /api/admin/users/{id}: Belirli bir kullanıcıyı günceller.
+
 •	DELETE /api/admin/users/{id}: Belirli bir kullanıcıyı siler.
 
-### Normal Kullanıcı İşlemleri
+#### Normal Kullanıcı İşlemleri
 •	GET /api/user/bills: Kullanıcının faturalarını listeler.
+
 •	GET /api/user/bills/{id}: Belirli bir faturayı ID'ye göre getirir.
+
 •	POST /api/user/bills/{id}/pay: Belirli bir faturayı öder.
+
 •	POST /api/user/messages: Yöneticiye mesaj gönderir.
 
 ## Yetkilendirme ve Güvenlik
