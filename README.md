@@ -105,21 +105,29 @@ bashCopy code
 DELETE https://localhost:5001/api/admin/users/2 Authorization: Bearer {your_jwt_token} 
 #### Normal Kullanıcı İşlemleri
 1.	Normal kullanıcı girişi için de /api/auth/login endpointini kullanabilirsiniz.
+
 2.	Başarılı bir giriş sonucunda yeni bir JWT token'ı alacaksınız.
+
 3.	JWT token'ını kullanarak normal kullanıcı işlemlerini gerçekleştirebilirsiniz.
+
 4.	Faturaları listelemek için: GET https://localhost:5001/api/user/bills
 sqlCopy code
 GET https://localhost:5001/api/user/bills Authorization: Bearer {your_jwt_token} 
+
 5.	Bir faturayı ödemek için: POST https://localhost:5001/api/user/bills/{id}/pay
 bashCopy code
 POST https://localhost:5001/api/user/bills/1/pay Authorization: Bearer {your_jwt_token} 
+
 6.	Mesaj göndermek için: POST https://localhost:5001/api/user/messages
 bashCopy code
 POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_token} Content-Type: application/json { "recipient": "admin@example.com", "message": "Merhaba! Bu bir test mesajıdır." } 
 #### Güvenlik
  •	API, JWT ile yetkilendirme sağlar. Admin ve User rolleri, JWT içinde taşınan payload ile belirlenir.
+ 
  •	Normal kullanıcılar sadece kendi faturalarını ve mesajlarını görüntüleyebilir ve ödeyebilir.
+ 
  •	Admin kullanıcıları ise tüm kullanıcıları yönetebilir ve fatura bilgilerini ekleyebilir/düzenleyebilir.
+
  •	Yetkilendirme için Authorize attribute'ları kullanılır ve her endpoint'e uygun roller atanır.
 #### Veritabanı
 •	Veritabanı, Apartment, User, Bill ve Message tablolarını içerir.
