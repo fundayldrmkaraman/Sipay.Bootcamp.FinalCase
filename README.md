@@ -185,7 +185,7 @@ Bu proje, bir site yönetimi uygulaması geliştirmek için adım adım ilerledi
 
 Proje, farklı rollerdeki kullanıcılar arasında etkileşimi ve yönetimi destekleyen iki tip kullanıcı (Admin ve Normal Kullanıcı) ile işlevselliğe sahip. Yönetici kullanıcısı, daire bilgilerini yönetebilir, kullanıcıları yönetebilir, aidat ve fatura bilgilerini girip yönetebilir ve iletişim kurabilir. Normal kullanıcılar, kendilerine atanmış aidat ve fatura bilgilerini görüntüleyebilir ve ödeme işlemlerini gerçekleştirebilir.
 
-Projede eksik ve çalışmayan yerler de mevcut. Mapper ve Validation kullanım kısımlarında eksiklik var. Aynı zamanda database bağlantısı kısımlarında kişisel bilgisayarımdan kaynaklı hatalar da meydana geldi. Bu da admin ve user kullanıcılarında işlem hatalarına sebebiyet verebilir. Aynı şekilde uygun kodları kullanmama rağmen token oluşturmada hatalarım mevcut. Ama genel olarak kod yazım tarzım ve yapısal oluşumum mevcut ödevin kaynak dosyalarda mevcut.
+Projede eksik ve çalışmayan yerler de mevcut. Mapper ve Validation kullanım kısımlarında eksiklik var. Aynı zamanda database bağlantısı kısımlarında kişisel bilgisayarımdan kaynaklı hatalar da meydana geldi. Database kısmında manuel olarak oluşturup bağlamayı denedim ama yine olmadı. Bu da admin ve user kullanıcılarında işlem hatalarına sebebiyet verebilir. Aynı şekilde uygun kodları kullanmama rağmen token oluşturmada hatalarım mevcut. Ama genel olarak kod yazım tarzım ve yapısal oluşumum mevcut ödevin kaynak dosyalarda mevcut.
 
 ## Geliştirici
 Bu projenin geliştiricisi: Funda Yıldırımkaraman
