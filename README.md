@@ -29,6 +29,8 @@ Servis; genel anlamda bir hizmeti, işlevi veya kaynağı temsil eden ve kullan�
 3.	İşletmelerde Hizmetler: İşletme bağlamında, bir servis, müşterilere sunulan belirli bir hizmeti ifade eder. Örneğin, bir otelde konaklama hizmeti, bir restoranda yemek hizmeti, bir bankada finansal hizmetler servisi gibi.
 
 4.	Genel Kullanım: Genel olarak, "servis" terimi, herhangi bir hizmet, hizmet veya işlevi belirtmek için kullanılabilir. Bu, teknoloji dışındaki çeşitli alanlarda kullanılabilir.
+
+![image](https://github.com/fundayldrmkaraman/Sipay.Bootcamp.FinalCase/assets/108402804/279450d1-cca6-42ba-a4c9-2e37ba22b992)
  
 JWT (JSON Web Token); JSON formatında yapılandırılmış ve dijital olarak imzalanmış bir veri yapısıdır. Özellikle, iki taraf arasında güvenli bir şekilde bilgi alışverişi yapmak için kullanılan bir kimlik doğrulama ve yetkilendirme yöntemidir. JWT, verileri taşımak ve doğrulamak için açık ve güvenli bir yöntem sunar.
 JWT, üç temel bölümden oluşur:
@@ -41,6 +43,8 @@ JWT, üç temel bölümden oluşur:
 
 JWT, özellikle modern web uygulamalarında kimlik doğrulama ve yetkilendirme için kullanılır. Kullanıcılar bir kez giriş yaptıktan sonra, sunucu JWT'yi oluşturur ve kullanıcıya verir. Kullanıcı bu tokenı her istekle birlikte sunucuya gönderir ve sunucu da bu tokenı doğrularak kullanıcının kimliğini belirler ve yetkilerini kontrol eder.
 JWT'nin avantajları, verilerin taşınması ve doğrulanmasının tek bir kompakt paket içinde gerçekleştirilmesidir. Ayrıca, sunucu tarafında tokenların saklanması yerine, tokenları kullanıcı tarafında saklayarak ölçeklenebilirlik sağlamasıdır. Ancak, güvenlik açısından, hassas bilgilerin içerikte bulunmaması ve tokenlar için uygun süreler belirlenerek düzenli olarak yenilenmesi gereklidir.
+
+![image](https://github.com/fundayldrmkaraman/Sipay.Bootcamp.FinalCase/assets/108402804/6573b226-527d-4cdb-a250-4c2735674dd8)
 
 ## Kurulum
 1.	Bu depoyu klonlayın veya ZIP dosyası olarak indirin.
