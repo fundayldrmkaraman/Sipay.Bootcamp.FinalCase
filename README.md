@@ -78,18 +78,18 @@ Proje, aşağıdaki tablolardan oluşan bir SQL Server veritabanı kullanır:
 •	Message: Kullanıcılar arasında mesajlaşma için kullanılır.
 Veritabanı şeması ve ilişkileri DbContext sınıfında yapılandırılmıştır.
 ## Projenin Kullanımı
-### Proje Kurulumu
+#### Proje Kurulumu
 1.	Öncelikle projeyi GitHub'dan indirin veya klonlayın. ZIP dosyası olarak indirirseniz, dosyaları çıkartın.
 2.	Projeyi bir IDE (Integrated Development Environment) olarak Visual Studio veya Visual Studio Code ile açın.
 3.	appsettings.json dosyasında SQL Server bağlantı dizesini güncelleyin. Bu, projenin veritabanıyla iletişim kuracağı bağlantıdır.
 4.	Projeyi derleyin ve çalıştırın. API, https://localhost:5001 adresinde çalışmaya başlayacaktır.
-### Admin Kullanıcı Girişi
+#### Admin Kullanıcı Girişi
 1.	API'ye erişim için bir JWT (JSON Web Token) token'ına ihtiyacınız olacak. /api/auth/login endpointine POST isteği göndererek giriş yapabilirsiniz.
 2.	Örnek giriş isteği:
 bashCopy code
 POST https://localhost:5001/api/auth/login Content-Type: application/json { "username": "admin@example.com", "password": "admin123" } 
 3.	Başarılı bir giriş sonucunda JWT token'ını alacaksınız.
-### Admin İşlemleri
+#### Admin İşlemleri
 1.	Authorization başlığında alınan JWT token'ını kullanarak admin işlemlerini gerçekleştirebilirsiniz.
 2.	Kullanıcıları listelemek için: GET https://localhost:5001/api/admin/users
 bashCopy code
@@ -103,7 +103,7 @@ PUT https://localhost:5001/api/admin/users/1 Authorization: Bearer {your_jwt_tok
 5.	Kullanıcıları silmek için: DELETE https://localhost:5001/api/admin/users/{id}
 bashCopy code
 DELETE https://localhost:5001/api/admin/users/2 Authorization: Bearer {your_jwt_token} 
-### Normal Kullanıcı İşlemleri
+#### Normal Kullanıcı İşlemleri
 1.	Normal kullanıcı girişi için de /api/auth/login endpointini kullanabilirsiniz.
 2.	Başarılı bir giriş sonucunda yeni bir JWT token'ı alacaksınız.
 3.	JWT token'ını kullanarak normal kullanıcı işlemlerini gerçekleştirebilirsiniz.
@@ -122,7 +122,9 @@ POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_to
  •	Admin kullanıcıları ise tüm kullanıcıları yönetebilir ve fatura bilgilerini ekleyebilir/düzenleyebilir.
  •	Yetkilendirme için Authorize attribute'ları kullanılır ve her endpoint'e uygun roller atanır.
 #### Veritabanı
+
 •	Veritabanı, Apartment, User, Bill ve Message tablolarını içerir.
+
 •	Veritabanı modeli, DbContext sınıfında yapılandırılır ve entity ilişkileri burada tanımlanır.
 
 ## Geliştirici
