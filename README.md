@@ -122,7 +122,6 @@ POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_to
  •	Admin kullanıcıları ise tüm kullanıcıları yönetebilir ve fatura bilgilerini ekleyebilir/düzenleyebilir.
  •	Yetkilendirme için Authorize attribute'ları kullanılır ve her endpoint'e uygun roller atanır.
 #### Veritabanı
-
 •	Veritabanı, Apartment, User, Bill ve Message tablolarını içerir.
 
 •	Veritabanı modeli, DbContext sınıfında yapılandırılır ve entity ilişkileri burada tanımlanır.
