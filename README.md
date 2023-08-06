@@ -10,6 +10,8 @@ API (Application Programming Interface); yazılım uygulamalarının birbirleriy
 API'ler, belirli bir hizmet veya platformun işlevselliğine erişim sağlar. Bu sayede uygulama geliştiricileri, başka bir yazılımın işlevselliğini kullanabilir ve kendi uygulamalarında bu işlevselliği entegre edebilir. Örneğin, bir hava durumu uygulaması, hava durumu bilgilerini sağlamak için bir hava durumu API'sini kullanabilir.
 API'ler, yazılım geliştirme sürecini hızlandırmaya ve kod tekrarını önlemeye yardımcı olur. Aynı zamanda farklı platformların birbiriyle uyumlu çalışmasını ve entegrasyonunu sağlayarak uygulamalar arasında veri paylaşımını kolaylaştırır.
 
+![image](https://github.com/fundayldrmkaraman/Sipay.Bootcamp.FinalCase/assets/108402804/5032c6ce-9a67-4bbf-96a3-2899848baa95)
+
 Entity; genel anlamda varlıkları, nesneleri veya var olan şeyleri ifade eder. Farklı bağlamlarda kullanıldığında anlamı değişebilir. İşte bazı yaygın kullanımları:
 
 1.	Programlama ve Veritabanları: Yazılım geliştirme ve veritabanı kavramlarında "entity," veri tabanındaki bir varlığı temsil eden, belirli bir amaçla veri saklamak için kullanılan bir yapıdır. Veri tabanı tablolarındaki her satır, bir varlık (entity) örneğini temsil eder.
@@ -176,4 +178,6 @@ POST https://localhost:5001/api/user/messages Authorization: Bearer {your_jwt_to
 
 ## Geliştirici
 Bu projenin geliştiricisi: Funda Yıldırımkaraman
+
+## Sonuç ve Çıkarımlar
 
