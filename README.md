@@ -1,6 +1,6 @@
 # Sipay.Bootcamp.FinalCase
 
-# Site Yönetimi Web API
+# ApartmentSystem Web API
 Bu proje, dairelerin aidat ve faturalarının yönetimini sağlayan bir web API'dir. API, iki tip kullanıcıya sahiptir: Admin ve Normal Kullanıcı.
 
 ## Başlarken
